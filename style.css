@@ -1,0 +1,160 @@
+* {
+  box-sizing: border-box;
+  font-family: "italic";
+  margin: 0px;
+  
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background: #4c4d4f;
+}
+
+.container {
+  padding-top: 70px;
+  padding-bottom: 20px;
+  padding-left: 5px;
+  padding-right: 5px;
+  height: 90vh;
+  width: 100%;
+  margin:auto;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  border-radius: 10px;
+  box-shadow: #2424c633 0px 7px 29px 0px;
+  background: #0544b9;
+}
+
+
+
+.chat {
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  color:black;
+  height: 75vh;
+  overflow-y: scroll;
+  scroll-behavior: smooth;
+  padding: 10px;
+  background:rgb(199, 194, 194);
+opacity: calc(0.95);
+
+}
+.class{
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  height: 50px;
+  background-color:#071933 ;
+  display: flex;
+  gap:4px;
+  padding: 8px;
+
+}
+
+.input {
+  margin-right: 0px;
+  width: 100%;
+  padding: 10px  2px;
+  border: 2px solid white;
+  border-radius: 18px;
+  font-size: 20px;
+ 
+}
+
+.input:focus {
+  border-color: white;
+  color: #1e1f1f;
+}
+
+.button {
+  height: 40px;
+  width: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 34px;
+  border-radius:80% ;
+
+}
+.but {
+ height: 40px;
+ width:44px;
+ font-size: 28px;
+ border-radius:80% ;
+}
+.but:hover{
+  filter:drop-shadow( 1px 1px 1px rgb(164, 4, 4));
+  border:2px solid black;
+}
+
+
+.button i:hover{
+  text-shadow:2px 2px 10px rgb(229, 225, 225);
+}
+
+.message{
+  display: flex;
+
+  align-items:center;
+  margin: 10px 0px;
+
+
+}
+.user{
+  justify-content: flex-end;
+
+}
+.bot{
+  justify-content:flex-start;
+  padding-right:20px ;
+}
+.useravatar{
+  margin-left: 4px;
+  color: white;
+  background-image: url(useravatar.jpg);
+  width:40px;
+  height: 40px;
+  background-size: cover;
+  background-position: center;
+  border-radius: 50%;
+  order:3;
+}
+.text1{
+  padding: 8px 30px;
+  background-color: rgb(120, 189, 120);
+  border-bottom-right-radius:40px ;
+  border-top-left-radius: 40px;
+  order: 2;
+  margin-left: 5px;
+}
+.text{
+  border-bottom-left-radius:40px ;
+  border-top-right-radius: 40px;
+  padding: 8px 30px;
+  background-color: rgb(14, 138, 220);
+  order: 2;
+  margin-left: 10px;
+}
+.botavatar{
+  order: 1;
+ 
+  margin-left: 2px;
+  margin-right: 6px;
+  border: 2px solid red;
+  padding: 20px 20px;
+  color: white;
+  background-image: url(botavat.jpg);
+  width:40px;
+  height: 40px;
+  background-size: cover;
+  background-position: center;
+  border-radius: 50%;
+}
+.chat::-webkit-scrollbar {
+  width: 0px;
+}
+
+.chat::-webkit-scrollbar-thumb {
+  background: #bcbdc0;
+  border-radius:0px;
+}
